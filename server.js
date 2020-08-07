@@ -3,7 +3,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 
 // Sets up our ports for testing application
-var PORT = process.env.PORT =3000;
+var PORT = process.env.PORT || 3000;
 const app = express();
 // Concise output colored by response status for development use.
 //  The :status token will be colored red for server error codes, yellow for client error codes, cyan for redirection codes, and uncolored for all other codes.
