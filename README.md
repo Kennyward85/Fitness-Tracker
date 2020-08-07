@@ -1,6 +1,8 @@
 # Fitness-Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+Created an app for tracking Workouts using a Mongoose/Mongodb schema to keep track of the type of work our weight, reps, sets.
+If cardio distance and time ran that will update on the main  page showing last workout infor and you can also add new workouts to the overall list
+Then there is a database page which will give you charts and metrics of the workouts done and pie and donut charts
 
 ## User Story
 
@@ -32,6 +34,12 @@ https://mongoosejs.com/docs/search.html?q=trim
 https://www.w3schools.com/jsref/jsref_reduce.asp
 
 # Img
+![Fitness-Tracker](https://user-images.githubusercontent.com/66036794/89610424-116bb780-d840-11ea-98e4-544e1a525d56.png)
 
 # Heroku and Repo Links
 https://github.com/Kennyward85/Fitness-Tracker
+
+https://morning-forest-63597.herokuapp.com/
+
+# Collaborated
+Worked with Hong Diem Thuy Ly
