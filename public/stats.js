@@ -5,13 +5,13 @@ fetch("/api/workouts/range")
     return response.json();
   })
   .then(data => {
-    populateChart(data);
+    popChart(data);
   });
 
 
 API.getWorkoutsInRange()
 
-  function generatePalette() {
+  function genColors() {
     const arr = [
     "#003f5c",
     "#2f4b7c",
@@ -33,11 +33,11 @@ API.getWorkoutsInRange()
 
   return arr;
   }
-function populateChart(data) {
+function popChart(data) {
   let durations = duration(data);
   let pounds = calculateTotalWeight(data);
   let workouts = workoutNames(data);
-  const colors = generatePalette();
+  const colors = genColors();
 
   let line = document.querySelector("#canvas").getContext("2d");
   let bar = document.querySelector("#canvas2").getContext("2d");
